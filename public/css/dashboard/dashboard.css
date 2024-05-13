@@ -1,0 +1,12 @@
+#logo-doctor {
+  width: 170px;
+  margin-bottom: 7px;
+}
+
+#collapseTwo, #collapseThree {
+  z-index: 9999;
+}
+
+.rounded {
+  z-index: 9999;
+}

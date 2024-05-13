@@ -1,0 +1,107 @@
+
+
+@import url("https://fonts.cdnfonts.com/css/open-sauce-one");
+
+#logo-doctor {
+    width: 250px;
+    margin-top: 15px;
+    height: auto;
+    margin-bottom: 20px;
+    float: left; /* Hace que el logo flote a la izquierda */
+    margin-right: 0px; /* Agrega un margen a la derecha del logo para separarlo del texto */
+    /*border: 1px solid black;*/
+  }
+
+#text-index {
+  font-family: Lovelace;
+  font-size: 70px;
+  text-shadow: 0.3px 0.3px 2px #000; /* Sombreado */
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  transition: text-decoration-color 0.3s, color 0.3s; 
+  text-decoration-thickness: 0.1px;
+}
+
+#text-index:hover{
+  
+  color: rgb(158, 7, 138); /* Color del texto al pasar el mouse (blanco) */
+  text-shadow: 2px 2px 5px rgba(192, 192, 192, 0.5); 
+  text-shadow: 0.3px 0.3px 2px #000; /* Sombreado */
+}
+
+
+#text-sub-index {
+  font-family: 'Open Sauce One', sans-serif;
+  font-size: 23px;
+    color: #333; /* Color de texto más oscuro */
+  }
+
+
+#registrate{
+  padding-right: 18px;
+}
+
+#btn-login {
+  font-family: 'Open Sauce One', sans-serif
+ 
+}
+
+#description-doctor {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 70px; 
+    left: 20px;
+}
+
+.margin-top-right-200 {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+h2{
+  font-family: Lovelace;
+}
+
+h2, .nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px; /* Espacio para la línea */
+}
+
+h2::after, .nav-link::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px; /* Grosor de la línea */
+  background-color: #00a0e8; /* Color celeste */
+  transform: scaleX(0);
+  transition: transform 0.3s ease; /* Animación de escala */
+}
+
+h2:hover::after, .nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-link{
+  color: #333;
+}
+
+#img-ubic{
+  padding: 10px; /* Espacio de relleno alrededor de la imagen */
+  display: inline-block; /* Asegura que los estilos se apliquen correctamente */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombreado gris oscuro */
+}
+
+#img-ubic img{
+  width: 900px; /* Cambiar el ancho a 200 píxeles */
+  height: auto; /* Cambiar la altura a 150 píxeles */
+  
+}
+
+#text-left{
+  margin-left: 1em;
+}
